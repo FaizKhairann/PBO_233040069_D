@@ -1,3 +1,4 @@
+package Pertemuan7;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -18,9 +19,9 @@ public class KartuHasilStudi {
 
   public String display() {
     StringBuilder sb = new StringBuilder();
+    sb.append("Periode Semester :").append(semester).append("\n");
     for (Matakuliah matakuliah : daftarMatakuliah) {
-      sb.append(matakuliah.display());
-      sb.append("\n");
+      sb.append(matakuliah.display()).append("\n");
     }
     return sb.toString();
   }

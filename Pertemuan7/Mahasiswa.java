@@ -1,3 +1,4 @@
+package Pertemuan7;
 
 public class Mahasiswa {
   private String NRP;
@@ -11,6 +12,10 @@ public class Mahasiswa {
   public Mahasiswa(String nRP, String nama) {
     this.NRP = nRP;
     this.nama = nama;
+  }
+
+  public String display() {
+    return "Mahasiswa [NRP=" + this.NRP + ", nama=" + this.nama + "]";
   }
 
   // SETTER & GETTER
