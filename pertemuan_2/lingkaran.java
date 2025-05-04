@@ -4,16 +4,13 @@ public class lingkaran {
   double jari;
   double phi;
 
-
   public lingkaran(double jari, double phi) {
-    this.jari = jari-jari;
+    this.jari = jari;
     this.phi = 3.14;
   }
 
-  public double hitungLuas(){
-    return phi * jari * jari;     
+  public double hitungLuas() {
+    return phi * jari * jari;
   }
-
-  
 
 }

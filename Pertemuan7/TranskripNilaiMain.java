@@ -3,8 +3,8 @@ package Pertemuan7;
 public class TranskripNilaiMain {
   public static void main(String[] args) {
     Matakuliah mk1 = new Matakuliah("001", "Algoritma Pemrograman 1", "A", 3, "Dr. Muhammad Sumbul");
-    Matakuliah mk2 = new Matakuliah("002", "Algoritma Pemrograman 2", "BC", 3, "Dr. Suki L");
-    Matakuliah mk3 = new Matakuliah("003", "Pemrograman Berorientasi Objek", "B", 3, "Ir. Abdul");
+    Matakuliah mk2 = new Matakuliah("002", "Algoritma Pemrograman 2", "B", 3, "Dr. Suki L");
+    Matakuliah mk3 = new Matakuliah("003", "Pemrograman Berorientasi Objek", "C", 3, "Ir. Abdul");
 
     // OBJEK KHS
     KartuHasilStudi khs = new KartuHasilStudi("2023/2024");
