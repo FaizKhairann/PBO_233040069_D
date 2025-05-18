@@ -18,9 +18,9 @@ public class InhertanceMain {
     System.out.println(mhs3.getNama() + "-" + mhs3.getAlamat());
 
     // Latihan 4
-    // Mahasiswa mhs4 = new Mahasiswa("1001", "Faiz", "Cirebon");
-    // System.out.println(mhs4.getNrp() +
-    // "-" + mhs4.getNama() +
-    // "-" + mhs4.getAlamat());
+    Mahasiswa mhs4 = new Mahasiswa("1001", "Faiz", "Cirebon");
+    System.out.println(mhs4.getNrp() +
+        "-" + mhs4.getNama() +
+        "-" + mhs4.getAlamat());
   }
 }
