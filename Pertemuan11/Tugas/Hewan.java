@@ -7,6 +7,7 @@ public abstract class Hewan {
   // subclass
   protected String nama;
 
+
   // Constructor untuk menginisialisasi atribut 'nama'
   public Hewan(String nama) {
     this.nama = nama;

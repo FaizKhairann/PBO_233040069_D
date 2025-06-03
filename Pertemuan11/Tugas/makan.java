@@ -8,3 +8,4 @@ public interface makan {
   // interface ini wajib menuliskan isi method ini
   void makan();
 }
+  
